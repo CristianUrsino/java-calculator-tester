@@ -8,8 +8,8 @@ public class Calculator {
     //validazioni
     static private void validateFloat(float f)
             throws IllegalArgumentException{
-        if(f < 0 || Float.isNaN(f)){
-            throw new IllegalArgumentException("The values must be a positive numbers");
+        if(f < 0 || Float.isNaN(f) || Float.isInfinite(f)){
+            throw new IllegalArgumentException("The values must be a finite positive numbers");
         }
         float maxFloat = Float.MAX_VALUE;
         if(f > maxFloat){
