@@ -6,7 +6,7 @@ public class Calculator {
     private Calculator(){};
     //METODI
     //validazioni
-    static private void validateFloat(float f)
+    static void validateFloat(float f)
             throws IllegalArgumentException{
         if(f < 0 || Float.isNaN(f) || Float.isInfinite(f)){
             throw new IllegalArgumentException("The values must be a finite positive numbers");
