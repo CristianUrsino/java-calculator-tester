@@ -27,7 +27,7 @@ public class TrainTicket {
     private void validatePositiveIntegers(int n)
             throws IllegalArgumentException {
         if (n < 1) {
-            throw new IllegalArgumentException("Il valore deve essere un numero intero positivo finito.");
+            throw new IllegalArgumentException("The value must be a positive numbers");
         }
     }
     private void validateAge(int n)

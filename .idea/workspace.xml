@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20dd0458-b88d-4247-b088-53f7c45d9dc2" name="Changes" comment="updated pom.xml with dependencies for test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator/TrainTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="20dd0458-b88d-4247-b088-53f7c45d9dc2" name="Changes" comment="update TrainTicket with other validations">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Calculator/TrainTicketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Calculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator/TrainTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator/TrainTicket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.TrainTicketTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -90,12 +89,39 @@
       <option name="project" value="LOCAL" />
       <updated>1712755352537</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated CalculatorTest with other test">
+      <option name="closed" value="true" />
+      <created>1712757561916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712757561916</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added TrainTicket Class">
+      <option name="closed" value="true" />
+      <created>1712760992409</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712760992409</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update TrainTicket with other validations">
+      <option name="closed" value="true" />
+      <created>1712761259263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712761259263</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added CalculatorTest" />
     <MESSAGE value="updated pom.xml with dependencies for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated pom.xml with dependencies for test" />
+    <MESSAGE value="updated CalculatorTest with other test" />
+    <MESSAGE value="added TrainTicket Class" />
+    <MESSAGE value="update TrainTicket with other validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="update TrainTicket with other validations" />
   </component>
 </project>
